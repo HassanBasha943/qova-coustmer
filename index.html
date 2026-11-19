@@ -365,20 +365,22 @@
                             Select Size:
                         </label>
 
-                        <div class="flex gap-2">
-                            <button type="button" onclick="selectSize('${product.id}', 'S', this)"
-                                class="size-btn-${product.id} px-2.5 py-1 text-xs border border-qova-beige rounded-lg hover:border-qova-gold transition">S</button>
+                    <div class="mt-3">
+    <label class="block text-[10px] uppercase tracking-wider text-qova-slate font-semibold mb-1">Select Size:</label>
+    <div class="flex gap-2">
+        <button type="button" onclick="selectSize('${product.id}', 'M', this)"
+            class="size-btn-${product.id} px-2.5 py-1 text-xs border border-qova-gold bg-qova-gold text-qova-charcoal font-bold rounded-lg transition">M</button>
 
-                            <button type="button" onclick="selectSize('${product.id}', 'M', this)"
-                                class="size-btn-${product.id} px-2.5 py-1 text-xs border border-qova-gold bg-qova-gold text-qova-charcoal font-bold rounded-lg transition">M</button>
+        <button type="button" onclick="selectSize('${product.id}', 'L', this)"
+            class="size-btn-${product.id} px-2.5 py-1 text-xs border border-qova-beige rounded-lg hover:border-qova-gold transition">L</button>
 
-                            <button type="button" onclick="selectSize('${product.id}', 'L', this)"
-                                class="size-btn-${product.id} px-2.5 py-1 text-xs border border-qova-beige rounded-lg hover:border-qova-gold transition">L</button>
+        <button type="button" onclick="selectSize('${product.id}', 'XL', this)"
+            class="size-btn-${product.id} px-2.5 py-1 text-xs border border-qova-beige rounded-lg hover:border-qova-gold transition">XL</button>
 
-                            <button type="button" onclick="selectSize('${product.id}', 'XL', this)"
-                                class="size-btn-${product.id} px-2.5 py-1 text-xs border border-qova-beige rounded-lg hover:border-qova-gold transition">XL</button>
-                        </div>
-                    </div>
+        <button type="button" onclick="selectSize('${product.id}', '2XL', this)"
+            class="size-btn-${product.id} px-2.5 py-1 text-xs border border-qova-beige rounded-lg hover:border-qova-gold transition">2XL</button>
+    </div>
+</div>
 
                     <div class="mt-auto pt-4 flex items-center justify-between border-t border-qova-beige/50">
                         <span class="font-serif text-lg font-bold text-qova-charcoal">
